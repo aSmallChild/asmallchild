@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Legit</title>
+    <style type="text/css">
+      :root {
+        --main-background-colour: #020202;
+        --border-colour: #323232;
+        --secondary-background-colour: #111;
+        --header-height: 2.5rem;
+        --footer-height: 2.5rem;
+        --content-margin: 1rem;
+        --border-thickness: 2px;
+        --text-colour: #767676;
+        --text-colour-hover: #939393;
+      }
+
+      * {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+        color: var(--text_colour);
+        box-sizing: border-box;
+      }
+
+      html, body {
+        height: 100%;
+        background-color: var(--main-background-colour);
+      }
+      video, img {
+        max-width: 100%;
+        height: auto;
+      }
+      .center {
+        text-align: center;
+      }
+
+      .page {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .header {
+        padding: 0.2rem;
+        height: var(--header-height);
+        border-bottom: solid var(--border-colour) var(--border-thickness);
+        background-color: var(--secondary-background-colour);
+      }
+      .body {
+        flex: 1;
+      }
+      .footer {
+        height: var(--footer-height);
+        border-top: solid var(--border-colour) var(--border-thickness);
+        background-color: var(--secondary-background-colour);
+      }
+      .center-content {
+        align-items: center;
+        margin: auto;
+        padding: var(--content-margin);
+      }
+      .photo_container {
+        display: inline-block;
+      }
+      .photo_title {
+        text-align: right;
+        margin: 15px 15px 0 0;
+      }
+      .photo_title a {
+        text-decoration: none;
+      }
+      .photo_title a:hover {
+        color: var(--text-colour-hover);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="header"></div>
+        <div class="center-content">
+          <div class="photo_container">
+            <a href="//flickr.com/photos/46928881@N02/33522578970/">
+              <img src="//live.staticflickr.com/2898/33522578970_c6a15f554d_k.jpg" />
+            </a>
+            <div class="photo_title">
+              <a href="//flickr.com/photos/46928881@N02/33522578970/">City Lights</a>
+            </div>
+          </div>
+        </div>
+      <div class="footer"></div>
+    </div>
+  </body>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-82526107-3', 'auto');
+ga('send', 'pageview');</script>
+</html>
